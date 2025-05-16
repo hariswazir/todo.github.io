@@ -44,7 +44,7 @@ function renderData() {
   deleteBtn.classList.add("delete-btn");
   deleteBtn.textContent = "X";
   deleteBtn.addEventListener("click", function () {
-    this.parentElement.remove();
+    li.remove();
   });
 
   // first add text span element into li
